@@ -360,8 +360,8 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .header-content h1 {
-        font-size: 2rem;
+    .brand-section h1 {
+        font-size: 2.5rem;
     }
     
     .whatsapp-float span {
@@ -372,5 +372,88 @@ footer {
         padding: 15px;
         right: 20px;
         bottom: 20px;
+    }
+
+    .header-grid {
+        gap: 1.5rem;
+    }
+
+    .tab-item {
+        font-size: 1.2rem;
+        padding: 1rem;
+        letter-spacing: 2px;
+    }
+}
+
+/* Mobile Specific (Smartphones) */
+@media (max-width: 480px) {
+    .container {
+        padding: 1rem;
+    }
+
+    header {
+        min-height: 400px;
+        padding: 1.5rem;
+    }
+
+    .brand-section h1 {
+        font-size: 2rem;
+        letter-spacing: -1px;
+    }
+
+    .service-tabs {
+        gap: 0.8rem;
+    }
+
+    .tab-item {
+        font-size: 1rem;
+        padding: 0.8rem;
+        border-left-width: 8px;
+        letter-spacing: 1px;
+    }
+
+    .hero {
+        padding: 3rem 1rem;
+    }
+
+    .hero-text h2 {
+        font-size: 1.5rem;
+    }
+
+    .section-title {
+        font-size: 1.8rem;
+    }
+
+    .video-box {
+        padding: 1rem;
+    }
+
+    .video-box h3 {
+        font-size: 1.2rem;
+    }
+
+    .card {
+        padding: 1.5rem;
+    }
+
+    .card h3 {
+        font-size: 1.4rem;
+    }
+
+    .gallery-grid, .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery-item img {
+        height: 200px;
+    }
+
+    .footer-grid {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-brand, .footer-contact {
+        width: 100%;
     }
 }
